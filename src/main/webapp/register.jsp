@@ -1,0 +1,339 @@
+<head>
+    <title>ANNAPURNA-TIFFIN SERVICES</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+    <link rel="stylesheet" href="css/aos.css">
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+    <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+  	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+	    <div class="container">
+		      <a class="navbar-brand" href="index.html"><span class="flaticon-pizza-1 mr-1"></span>ANNAPURNA<br><small> TIFFIN SERVICES</small></a>
+		      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+		        <span class="oi oi-menu"></span> Menu
+		      </button>
+	      <div class="collapse navbar-collapse" id="ftco-nav">
+	        <ul class="navbar-nav ml-auto">
+	          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+	          <li class="nav-item"><a href="menu.html" class="nav-link">Menu</a></li>
+	          <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
+	          <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
+	          <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
+	          <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+	          <li class="nav-item"><a href="register.jsp" class="nav-link">Register</a></li>
+	          <li class="nav-item"><a href="login.jsp" class="nav-link">Login</a></li>
+	          <li class="nav-item"><a href="chefd.jsp" class="nav-link">Apply</a></li>
+	        </ul>
+	      </div>
+		  </div>
+	  </nav>
+
+
+<title>ANNAPURNA</title>
+<body class="align">
+  <div class="grid">
+
+    <form  method="POST" class="form login" action="regg.jsp">
+	<h1 style="color:black;">ANNAPURNA</h1>
+      <div class="form__field">
+        <label for="login__username"><svg class="icon">
+            <use xlink:href="#icon-user"></use>
+          </svg><span class="hidden">Username</span></label>
+        <input  type="text" name="un" class="form__input" placeholder="Username" required>
+      </div>
+ <div class="form__field">
+        <label for="login__username"><svg class="icon">
+            <use xlink:href="#icon-user"></use>
+          </svg><span class="hidden">Email id</span></label>
+        <input   type="text" name="em" class="form__input" placeholder="email id" required>
+      </div>
+       <div class="form__field">
+        <label for="login__username"><svg class="icon">
+            <use xlink:href="#icon-user"></use>
+          </svg><span class="hidden">phone number</span></label>
+        <input  type="text" name="ph" class="form__input" placeholder="phone number" required>
+      </div>
+       <div class="form__field">
+        <label for="login__username"><svg class="icon">
+            <use xlink:href="#icon-user"></use>
+          </svg><span class="hidden">address</span></label>
+        <input  type="text" name="ad" class="form__input" placeholder="Address" required>
+      </div>
+      <div class="form__field">
+        <label for="login__password"><svg class="icon">
+            <use xlink:href="#icon-lock"></use>
+          </svg><span class="hidden">Password</span></label>
+        <input  type="password" name="ps" class="form__input" placeholder="Password" required>
+      </div>
+
+    
+ <div class="form__field">
+        <input type="submit" value="submit" onclick="myFunction()">
+      </div>
+   <script>
+  function myFunction() {
+   alert("You have registered successfully!");
+   }
+  </script>
+    
+      
+    </form>
+
+    <p class="text--center">Already a member -_- <a href="login.jsp">Sign in now</a> <svg class="icon">
+        <use xlink:href="#icon-arrow-right"></use>
+      </svg></p>
+
+  </div>
+
+  <svg xmlns="http://www.w3.org/2000/svg" class="icons">
+    <symbol id="icon-arrow-right" viewBox="0 0 1792 1792">
+      <path d="M1600 960q0 54-37 91l-651 651q-39 37-91 37-51 0-90-37l-75-75q-38-38-38-91t38-91l293-293H245q-52 0-84.5-37.5T128 1024V896q0-53 32.5-90.5T245 768h704L656 474q-38-36-38-90t38-90l75-75q38-38 90-38 53 0 91 38l651 651q37 35 37 90z" />
+    </symbol>
+    <symbol id="icon-lock" viewBox="0 0 1792 1792">
+      <path d="M640 768h512V576q0-106-75-181t-181-75-181 75-75 181v192zm832 96v576q0 40-28 68t-68 28H416q-40 0-68-28t-28-68V864q0-40 28-68t68-28h32V576q0-184 132-316t316-132 316 132 132 316v192h32q40 0 68 28t28 68z" />
+    </symbol>
+    <symbol id="icon-user" viewBox="0 0 1792 1792">
+      <path d="M1600 1405q0 120-73 189.5t-194 69.5H459q-121 0-194-69.5T192 1405q0-53 3.5-103.5t14-109T236 1084t43-97.5 62-81 85.5-53.5T538 832q9 0 42 21.5t74.5 48 108 48T896 971t133.5-21.5 108-48 74.5-48 42-21.5q61 0 111.5 20t85.5 53.5 62 81 43 97.5 26.5 108.5 14 109 3.5 103.5zm-320-893q0 159-112.5 271.5T896 896 624.5 783.5 512 512t112.5-271.5T896 128t271.5 112.5T1280 512z" />
+    </symbol>
+  </svg>
+
+</body>
+<style>
+@use postcss-preset-env {
+  stage: 0;
+}
+
+/* config.css */
+
+:root {
+  --baseColor: #606468;
+}
+
+/* helpers/align.css */
+
+.align {
+  display: grid;
+  place-items: center;
+}
+
+.grid {
+  inline-size: 90%;
+  margin-inline: auto;
+  max-inline-size: 20rem;
+}
+
+/* helpers/hidden.css */
+
+.hidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+/* helpers/icon.css */
+
+:root {
+  --iconFill: var(--baseColor);
+}
+
+.icons {
+  display: none;
+}
+
+.icon {
+  block-size: 1em;
+  display: inline-block;
+  fill: var(--iconFill);
+  inline-size: 1em;
+  vertical-align: middle;
+}
+
+/* layout/base.css */
+
+:root {
+  --htmlFontSize: 100%;
+
+  --bodyBackgroundColor: #2c3338;
+  --bodyColor: var(--baseColor);
+  --bodyFontFamily: "Open Sans";
+  --bodyFontFamilyFallback: sans-serif;
+  --bodyFontSize: 0.875rem;
+  --bodyFontWeight: 400;
+  --bodyLineHeight: 1.5;
+}
+
+* {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: var(--htmlFontSize);
+}
+
+body {
+	background-image: url('https://images.pexels.com/photos/616401/pexels-photo-616401.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=1500');
+  font-family: var(--bodyFontFamily), var(--bodyFontFamilyFallback);
+  font-size: var(--bodyFontSize);
+  font-weight: var(--bodyFontWeight);
+  background-size: 1700px;
+  line-height: var(--bodyLineHeight);
+  margin: 0;
+  min-block-size: 100vh;
+}
+
+/* modules/anchor.css */
+
+:root {
+  --anchorColor: #eee;
+}
+
+a {
+  color: var(--anchorColor);
+  outline: 0;
+  text-decoration: none;
+}
+
+a:focus,
+a:hover {
+  text-decoration: underline;
+}
+
+/* modules/form.css */
+
+:root {
+  --formGap: 0.875rem;
+}
+
+input {
+  background-image: none;
+  border: 0;
+  color: inherit;
+  font: inherit;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  transition: background-color 0.3s;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+}
+
+.form {
+  display: grid;
+  gap: var(--formGap);
+}
+
+.form input[type="password"],
+.form input[type="text"],
+.form input[type="submit"] {
+  inline-size: 100%;
+}
+
+.form__field {
+  display: flex;
+}
+
+.form__input {
+  flex: 1;
+}
+
+/* modules/login.css */
+
+:root {
+  --loginBorderRadus: 0.25rem;
+  --loginColor: #eee;
+
+  --loginInputBackgroundColor: #3b4148;
+  --loginInputHoverBackgroundColor: #434a52;
+
+  --loginLabelBackgroundColor: #363b41;
+
+  --loginSubmitBackgroundColor: #ea4c88;
+  --loginSubmitColor: #eee;
+  --loginSubmitHoverBackgroundColor: #d44179;
+}
+
+.login {
+  color: var(--loginColor);
+}
+
+.login label,
+.login input[type="text"],
+.login input[type="password"],
+.login input[type="submit"] {
+  border-radius: var(--loginBorderRadus);
+  padding: 1rem;
+}
+
+.login label {
+  background-color: var(--loginLabelBackgroundColor);
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  padding-inline: 1.25rem;
+}
+
+.login input[type="password"],
+.login input[type="text"] {
+  background-color: var(--loginInputBackgroundColor);
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.login input[type="password"]:focus,
+.login input[type="password"]:hover,
+.login input[type="text"]:focus,
+.login input[type="text"]:hover {
+  background-color: var(--loginInputHoverBackgroundColor);
+}
+
+.login input[type="submit"] {
+  background-color: var(--loginSubmitBackgroundColor);
+  color: var(--loginSubmitColor);
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.login input[type="submit"]:focus,
+.login input[type="submit"]:hover {
+  background-color: var(--loginSubmitHoverBackgroundColor);
+}
+
+/* modules/text.css */
+
+p {
+  margin-block: 1.5rem;
+}
+
+.text--center {
+  text-align: center;
+}
+
+</style>
